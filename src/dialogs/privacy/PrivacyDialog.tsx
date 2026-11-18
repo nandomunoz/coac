@@ -2,7 +2,7 @@ import { CONTACT_EMAIL } from "../../config/site";
 import { InfoDialog, InfoSection } from "../info/InfoDialog";
 
 const AUTHOR_URL = "https://twitter.com/nandovejer";
-const REPO_URL = "https://github.com/nandovejer/coac";
+const REPO_URL = "https://github.com/nandomunoz/coac";
 const GITHUB_PRIVACY_URL =
   "https://docs.github.com/es/site-policy/privacy-policies/github-general-privacy-statement";
 const AEPD_URL = "https://www.aepd.es";

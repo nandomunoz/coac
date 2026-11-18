@@ -1211,7 +1211,7 @@ export default function App({
             <strong className="coac-app__footer-promise-lead">Gratis y sin publicidad.</strong>{" "}
             <strong className="coac-app__footer-promise-body">
               No gana dinero con nada, porque está hecha por y para los aficionados, y es 100&nbsp;%{" "}
-              <a className="coac-app__footer-link" href="https://github.com/nandovejer/coac">
+              <a className="coac-app__footer-link" href="https://github.com/nandomunoz/coac">
                 open source
               </a>
               .
@@ -1242,7 +1242,7 @@ export default function App({
           {/* Créditos: lo último del pie, sin pasar por debajo del botón del modo de color */}
           <p className="coac-app__footer-credits">
             Hecho con{" "}
-            <a className="coac-app__footer-link" href="https://github.com/nandovejer/luz">
+            <a className="coac-app__footer-link" href="https://github.com/nandomunoz/luz">
               Luz
             </a>{" "}
             por{" "}
