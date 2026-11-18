@@ -1,7 +1,7 @@
 import { InfoDialog } from "../info/InfoDialog";
 import "./GameDialog.css";
 
-export const GAME_URL = "https://nandovejer.github.io/streetcai/";
+export const GAME_URL = "https://nandomunoz.github.io/streetcai/";
 
 /**
  * El juego (Streetcai) dentro de un marco. Solo se carga al pulsar el botón
