@@ -61,12 +61,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nandovejer/coac.git"
+    "url": "git+https://github.com/nandomunoz/coac.git"
   },
   "bugs": {
-    "url": "https://github.com/nandovejer/coac/issues"
+    "url": "https://github.com/nandomunoz/coac/issues"
   },
-  "homepage": "https://github.com/nandovejer/coac#readme",
+  "homepage": "https://github.com/nandomunoz/coac#readme",
   "engines": {
     "node": ">=20"
   }

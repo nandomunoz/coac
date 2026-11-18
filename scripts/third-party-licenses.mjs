@@ -30,7 +30,7 @@ const parts = [
   "",
   "Esta web incluye las dependencias siguientes. Cada una se distribuye con su",
   "propia licencia, que se reproduce más abajo. El código propio de la web es MIT",
-  "(ver LICENSE en https://github.com/nandovejer/coac).",
+  "(ver LICENSE en https://github.com/nandomunoz/coac).",
   "",
   "Resumen:",
   ...packages.map((pkg) => `  - ${pkg.name} ${pkg.versions.join(", ")} — ${pkg.license}`),

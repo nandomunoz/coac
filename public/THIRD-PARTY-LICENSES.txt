@@ -2,7 +2,7 @@ Licencias de terceros de «¿Quién canta hoy en el COAC?» (coac.com.es)
 
 Esta web incluye las dependencias siguientes. Cada una se distribuye con su
 propia licencia, que se reproduce más abajo. El código propio de la web es MIT
-(ver LICENSE en https://github.com/nandovejer/coac).
+(ver LICENSE en https://github.com/nandomunoz/coac).
 
 Resumen:
   - @babel/runtime 7.29.13 — MIT
@@ -63,7 +63,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ==============================================================================
 @luz-ds/core 0.3.0 — MIT
-https://github.com/nandovejer/luz#readme
+https://github.com/nandomunoz/luz#readme
 ==============================================================================
 
 MIT License
@@ -90,7 +90,7 @@ SOFTWARE.
 
 ==============================================================================
 @luz-ds/tokens 0.3.0 — MIT
-https://github.com/nandovejer/luz#readme
+https://github.com/nandomunoz/luz#readme
 ==============================================================================
 
 MIT License

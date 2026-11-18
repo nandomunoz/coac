@@ -4,7 +4,7 @@ Web estática que muestra qué agrupaciones cantan en cada sesión del COAC
 (Concurso Oficial de Agrupaciones Carnavalescas de Cádiz), con horario estimado
 por agrupación, buscador de autores y enlace al directo.
 
-Vite + React 18 + TypeScript + [Luz](https://github.com/nandovejer/luz)
+Vite + React 18 + TypeScript + [Luz](https://github.com/nandomunoz/luz)
 (`@luz-ds/*`, sistema de diseño en CSS) + CSS propio. Sin router, sin estado global, sin
 backend: todo se sirve estático desde GitHub Pages. Comandos y cambio de fase
 (3 pasos): [README.md](README.md). Lo que queda por hacer y lo que se probó y se

@@ -1,7 +1,7 @@
 import { SEASON } from "../../config/season";
 import { InfoDialog, InfoSection } from "../info/InfoDialog";
 
-const REPO_URL = "https://github.com/nandovejer/coac";
+const REPO_URL = "https://github.com/nandomunoz/coac";
 
 /**
  * «Quiénes somos»: qué es la web, quién la hace, de dónde salen los datos,
@@ -71,7 +71,7 @@ export default function AboutDialog({ onClose }: { onClose: () => void }) {
           © 2026 Nando Muñoz. Código abierto bajo{" "}
           <a href="https://es.wikipedia.org/wiki/MIT_License">licencia MIT</a>: puedes verlo, copiarlo y
           mejorarlo en <a href={REPO_URL}>GitHub</a>. Hecho con{" "}
-          <a href="https://github.com/nandovejer/luz">Luz</a>, React y Vite.
+          <a href="https://github.com/nandomunoz/luz">Luz</a>, React y Vite.
         </p>
         <p className="coac-info__note">
           Web no oficial, hecha por un aficionado. No tiene relación con el Ayuntamiento de Cádiz ni con la

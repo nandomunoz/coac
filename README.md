@@ -4,10 +4,10 @@
   <img src="public/og-image.jpg" alt="¿Quién canta hoy en el Falla? Aunque no seamos la web oficial, puedes ver los horarios de las preliminares del COAC." width="100%">
 </a>
 
-[![CI](https://github.com/nandovejer/coac/actions/workflows/ci.yml/badge.svg)](https://github.com/nandovejer/coac/actions/workflows/ci.yml)
-[![Deploy](https://github.com/nandovejer/coac/actions/workflows/deploy.yml/badge.svg)](https://github.com/nandovejer/coac/actions/workflows/deploy.yml)
+[![CI](https://github.com/nandomunoz/coac/actions/workflows/ci.yml/badge.svg)](https://github.com/nandomunoz/coac/actions/workflows/ci.yml)
+[![Deploy](https://github.com/nandomunoz/coac/actions/workflows/deploy.yml/badge.svg)](https://github.com/nandomunoz/coac/actions/workflows/deploy.yml)
 [![Licencia: MIT](https://img.shields.io/badge/licencia-MIT-2365a6)](./LICENSE)
-[![Hecho con Luz](https://img.shields.io/badge/hecho%20con-Luz-2365a6)](https://github.com/nandovejer/luz)
+[![Hecho con Luz](https://img.shields.io/badge/hecho%20con-Luz-2365a6)](https://github.com/nandomunoz/luz)
 ![Sin backend](https://img.shields.io/badge/backend-ninguno-2365a6)
 
 [Qué es](#qué-es) ·
@@ -77,7 +77,7 @@ segundos y al volver a la pestaña.
 
 | Pieza            | Uso                                                                                                 |
 | ---------------- | --------------------------------------------------------------------------------------------------- |
-| **Luz**          | Sistema de diseño: [`@luz-ds/*`](https://github.com/nandovejer/luz) (tokens, base y selector de modo) con tema propio `coac`. |
+| **Luz**          | Sistema de diseño: [`@luz-ds/*`](https://github.com/nandomunoz/luz) (tokens, base y selector de modo) con tema propio `coac`. |
 | React 18         | Interfaz, sin router ni estado global.                                                              |
 | Vite + TypeScript | Build, tipado y plugin propio de SEO.                                                              |
 | CSS propio       | Un `.css` por componente, con tokens de Luz. Sin Tailwind ni utilidades.                            |
@@ -85,12 +85,12 @@ segundos y al volver a la pestaña.
 | Playwright + axe | Capturas, modos de color, reloj simulado y accesibilidad.                                           |
 | GitHub Actions   | CI en cada PR y deploy a GitHub Pages al subir a `main`.                                            |
 
-Hecho con [Luz](https://github.com/nandovejer/luz), el sistema de diseño en
+Hecho con [Luz](https://github.com/nandomunoz/luz), el sistema de diseño en
 CSS plano de [Nando Muñoz](https://twitter.com/nandovejer).
 
 > [!NOTE]
 > **Luz está en beta.** `@luz-ds/*` está fijado a una versión exacta. Lee su
-> [CHANGELOG](https://github.com/nandovejer/luz/blob/main/packages/tokens/CHANGELOG.md)
+> [CHANGELOG](https://github.com/nandomunoz/luz/blob/main/packages/tokens/CHANGELOG.md)
 > y revisa las capturas antes de subirla.
 
 ## Desarrollo
