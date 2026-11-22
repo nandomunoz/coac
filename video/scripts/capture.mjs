@@ -36,7 +36,8 @@ const marks = {};
 const boxes = {};
 let n = 0;
 let total = 0;
-const settle = () => page.evaluate(() => new Promise((r) => requestAnimationFrame(() => requestAnimationFrame(r))));
+const settle = () =>
+  page.evaluate(() => new Promise((r) => requestAnimationFrame(() => requestAnimationFrame(r))));
 async function shot(hold = 1) {
   await settle();
   const file = `f${String(n++).padStart(4, "0")}.png`;
@@ -70,7 +71,8 @@ async function scrollToSlot(slot, duration) {
     await shot(1);
   }
 }
-const pageTop = (locator) => locator.first().evaluate((el) => Math.round(el.getBoundingClientRect().top + window.scrollY));
+const pageTop = (locator) =>
+  locator.first().evaluate((el) => Math.round(el.getBoundingClientRect().top + window.scrollY));
 
 // 1. Arriba: quién canta ahora (3 s).
 mark("top");
@@ -119,7 +121,11 @@ await box("searchPinned", search);
 boxes.resultText = await result.innerText();
 await shot(seconds(3));
 
-writeFileSync(`${out}/take.txt`, frames.map((f) => `file '${f.file}'\nduration ${(f.frames / FPS).toFixed(6)}`).join("\n") + `\nfile '${frames.at(-1).file}'\n`);
+writeFileSync(
+  `${out}/take.txt`,
+  frames.map((f) => `file '${f.file}'\nduration ${(f.frames / FPS).toFixed(6)}`).join("\n") +
+    `\nfile '${frames.at(-1).file}'\n`,
+);
 writeFileSync(`${out}/take.json`, JSON.stringify({ fps: FPS, seconds: total / FPS, marks, boxes }, null, 2));
 console.log(JSON.stringify({ seconds: total / FPS, marks, boxes }, null, 2));
 await browser.close();
