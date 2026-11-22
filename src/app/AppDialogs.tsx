@@ -6,7 +6,6 @@ import type { Shell } from "./useShell";
 const PrintSchedule = lazy(() => import("../dialogs/print/PrintSchedule"));
 const AboutDialog = lazy(() => import("../dialogs/about/AboutDialog"));
 const PrivacyDialog = lazy(() => import("../dialogs/privacy/PrivacyDialog"));
-const GameDialog = lazy(() => import("../dialogs/game/GameDialog"));
 
 /**
  * Modales abiertos (imprimir, «Quiénes somos», privacidad) y aviso de
@@ -15,7 +14,7 @@ const GameDialog = lazy(() => import("../dialogs/game/GameDialog"));
  * de la app: se pinta una vez, dentro de él.
  */
 export function AppDialogs({ shell }: { shell: Shell }) {
-  const { print, about, privacy, game } = shell.dialogs;
+  const { print, about, privacy } = shell.dialogs;
   return (
     <>
       {print.open && (
@@ -36,11 +35,6 @@ export function AppDialogs({ shell }: { shell: Shell }) {
       {privacy.open && (
         <Suspense fallback={null}>
           <PrivacyDialog onClose={privacy.onClose} />
-        </Suspense>
-      )}
-      {game.open && (
-        <Suspense fallback={null}>
-          <GameDialog onClose={game.onClose} />
         </Suspense>
       )}
       <PrivacyNotice onOpenPrivacy={privacy.onOpen} />

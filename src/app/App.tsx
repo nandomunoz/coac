@@ -883,11 +883,6 @@ export default function App({
         </aside>
 
         {renderActions("rail")}
-
-        {/* Solo en escritorio, al pie de la columna: abre el juego en un modal */}
-        <button type="button" className="coac-app__forbidden" {...shell.gameButton}>
-          No le des click aquí
-        </button>
       </div>
 
       <div className="coac-app__body">
